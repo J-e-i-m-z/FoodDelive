@@ -3,45 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery</title>
     <link rel="stylesheet" href="style.css">
-    <title>FoodDelive</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            padding: 10px;
+            background-color: #f4f4f4;
+            background-image: url('background.jpg'); /* Replace with your image URL */
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;                
+            }
+
+
+        .entry-page {
+            text-align: right;
+            margin: 80px;
+        }
+
+        .entry-page h1 {
+            color: #070016;
+            font-size: 55px;
+        }
+
+        .entry-page h2 {
+            color: #1f0033;
+            font-size: 50px;
+        }
+
+        .entry-page h3 {
+            color: #19001f;
+
+        }
+
+        .startnow {
+            padding: 20px 40px;
+            background-color: #472222;
+            color: #fff;
+            text-decoration: solid;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: large;
+        }
+
+        .startnow a {
+            text-decoration: solid;
+            color: #fff;
+        }
+
+        
+
+    </style>
 </head>
 <body>
-    <section class="menu">
-        <div class="nav">
-            <div class="logo">
-                <h1>Food<b>Delive</b></h1>
-            </div>
+    <div class="nav">
+        <div class="logo"><h2>FoodDelive</h2></div>
+        <div class="navlinks">
             <ul>
-                <li><a class="active" href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Order</a></li>
-                <li><a href="#">Advertisements</a></li>
+                <li><a class="navborder" href="home.html"><strong>Home</strong></a></li>
+                <li><a class="navborder" href="home.html"><strong>About</strong></a></li>
+                <li><a class="navborder" href="menu.html"><strong>Menu</strong></a></li>
+                <li><a class="navborder" href="contact.html"><strong>Contact Us</strong></a></li>
+                <li><a class="navborder" href="gallery.html"><strong>Gallery</strong></a></li>
+                <li><a class="navborder" href="advertisement.html"><strong>Advertisements</strong></a></li>
+                <li><a class="navborder" href="exit.html"></a></li>
+
+
             </ul>
         </div>
-    </section>
+    </div>
 
-    <section>
-        <div class="container">
-            <form action="">
-                <input type="text" placeholder="Find Restaurant" name="q">
-                <button type="submit"><img src="images/search.png"></button>
-            </form>
-        </div>
-    </section>
+    <div class="entry-page">
+        <h1>Welcome To FoodDelive!</h1>
+        <p><h2><i>You Order,We Deliver!</i></h2></p>
+        <p><h3>Quality, Variety, and Timely Delivery - That's our promise to you!</h3></p>
+        <button class="startnow"><a href="home.html">Start Now</a></button>
+    </div>
 
-    <section class="grid">
-        <div class="content">
-            <div class="content-left">
-                <div class="info">
-                    <h2>Order Your Best<br>Food Anytime</h2>
-                    <p>Hey, Our delicious food is waiting for you, <br>
-                    We are always near you with fresh item of food</p>
-                  </div>
-                <button>Explore Food</button>
-            </div>
-        </div>
+    
+    
 
-    </section>
 </body>
 </html>

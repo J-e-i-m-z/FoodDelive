@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                margin: 0;
+                padding: 10px;
+                background-color: #f4f4f4;
+            }
+
+            .container1 {
+                text-align: center;
+                padding: 20px;
+            }
+        
+            .Order {
+                background-color: #4d0629;
+                color: #fff;
+                padding: 10px 20px;
+                text-decoration: none;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        
+            .Order a {
+                color: #fff;
+                text-decoration: none;
+            }
+        
+            .Order:hover {
+                background-color: #470000;
+            }
+
+            .content{
+                display: grid;
+                grid-template-columns: 50% auto;
+                gap: 20px;
+                margin-top: 30px;
+                justify-content: space-between;
+                width: 90%;
+            }
+
+            .content .content-left{
+                display: block;
+                width: 100%;
+            }
+
+            .content .content-left .info{
+                max-width: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .content .content-left .info h2{
+                font-size: 60px;
+                font-family: sans-serif;
+                margin-bottom: 5px;
+            }
+
+            .content .content-left .info h3{
+                font-size: 40px;
+                font-family: sans-serif;
+                margin-bottom: 10px;
+            }
+
+            .content .content-left .info p{
+                margin-bottom: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .content  .content-right{
+                display: block;
+                width: 100%;
+            }
+
+            .content .content-right img{
+                width: 800px;
+                height: auto;
+                position: relative;
+            }
+            
+    </style>
+</head>
+<body>
+    <div>
+        <div class="home-page">
+            <div class="nav">
+                <div class="logo"><h2>FoodDelive</h2></div>
+                <div class="navlinks">
+                    <ul>
+                        <li><a class="navborder" href="index.html"><strong>Home</strong></a></li>
+                        <li><a class="navborder" href="home.html"><strong>About</strong></a></li>
+                        <li><a class="navborder" href="menu.html"><strong>Menu</strong></a></li>
+                        <li><a class="navborder" href="contact.html"><strong>Contact Us</strong></a></li>
+                        <li><a class="navborder" href="gallery.html"><strong>Gallery</strong></a></li>
+                        <li><a class="navborder" href="advertisement.html"><strong>Advertisements</strong></a></li>
+                        <li><a class="navborder" href="exit.html"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="grid">
+        <div class="content">
+            <div class="content-left">
+                <div class="info">
+                    <h2>Order Your Best</h2>
+                    <h3>Our History</h3>
+                    <p>Since our founding in 2010, 
+                    FoodDelive has been dedicated to revolutionizing the food delivery experience. 
+                    What started as a small venture with a big dream has grown into a trusted and beloved service, 
+                    connecting people with the best local cuisines.</p>
+        <p>Over the years, we've focused on delivering not just meals but delightful experiences. 
+            Our commitment to quality, reliability, and a diverse menu has made us a go-to choice for food lovers everywhere.</p>
+        <p>Thank you for being part of our journey. Let's continue savoring the flavors together!</p>
+                </div>
+                <button class="Order"><a href="menu.html">ORDER NOW</a></button>
+            </div>
+            <div class="content-right">
+                <img src="picha.jpg">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <span>&copy; 2024 FoodDelive. All rights reserved.</span>
+    </footer>
+</body>
+</html>
+
+
+
+
+            
