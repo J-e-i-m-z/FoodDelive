@@ -7,56 +7,62 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<!--<style> 
-    .advertisement {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 20px;
-    }
-    
-    .ad-image img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 8px;
-    }
-    
-    .ad-details {
+<style>
+    body {
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        padding: 0;
+        background-color: #f4f4f4;
+        background-image: url('advert.jpg'); 
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;                
+        }
+
+
+    .container {
+        padding: 20px;
+        background-color: #888181;
         text-align: center;
-        margin-left: 20px;
-    }
-    
-    .ad-details h2 {
-        color: #333;
-    }
-    
-    .ad-details p {
-        color: #555;
-    }
-    
-    .entry a{
-        background-color: #333;
+        margin: 5px;
+        font-size:larger;
         color: #fff;
-        padding: 10px 20px;
-        text-decoration: none;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
     }
-    
-    .entry:hover {
-        background-color: #555;
+
+    table {
+        width: 100%;
+        margin-top: 20px;
     }
-    
-    footer {
-        background-color: #333;
-        color: #fff;
-        text-align: center;
+
+    table, th, td {
+        border: 1px solid #ddd;
+    }
+
+    th, td {
         padding: 10px;
+        text-align: left;
+        font-size: medium;
     }
-    
-</style> -->
+
+    marquee {
+        margin-top: 30px;
+        color: #720202; 
+        font-family: 'Arial', sans-serif; 
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+
+    img {
+        width: 200px;
+        height: auto;
+        margin-top: 30px;
+        margin-right: 300px;
+    }
+</style>
+
+
 <body>
     <div class="nav">
         <div class="logo"><h2>FoodDelive</h2></div>
@@ -65,26 +71,47 @@
                 <li><a class="navborder" href="home.html"><strong>Home</strong></a></li>
                 <li><a class="navborder" href="home.html"><strong>About</strong></a></li>
                 <li><a class="navborder" href="menu.html"><strong>Menu</strong></a></li>
-                <li><a class="navborder" href="contact.html"><strong>Contact Us</strong></a></li>
-                <li><a class="navborder" href="gallery.html"><strong>Gallery</strong></a></li>
+                <li><a class="navborder" href="index.html"><strong>Contact Us</strong></a></li>
                 <li><a class="navborder" href="advertisement.html"><strong>Advertisements</strong></a></li>
                 <li><a class="navborder" href="exit.html"></a></li>
 
             </ul>
         </div>
     </div>
-<!--
-    <section class="advertisement">
-        <div class="ad-image">
-            <img src="your-image-url.jpg" alt="Food Delivery Advertisement">
-        </div>
-        <div class="ad-details">
-            <h2>Order Now and Enjoy Delicious Meals</h2>
-            <p>Explore a variety of cuisines and satisfy your cravings with our quick and reliable food delivery service.</p>
-            <button class="entry"><a href="index.html">Back to Welcome Page</a></button>
-        </div>
-    </section>
--->
+
+    <div class="container">
+        <h1>Special Offers and Advertisements</h1>
+    </div>
+
+    <div>
+
+        <table border="1" cellspacing="0" cellpadding="10">
+            <tr>
+                <th style="font-weight: bold; background-color: #525c52; color: #fff; font-size: 16px;">ADVERTISEMENTS</th>
+                <th style="font-weight: bold; background-color: #525c52; color: #fff; font-size: 16px;">DETAILS</th>
+            </tr>
+            
+            <tr>
+                <td><strong>Discount on Pizza</strong></td>
+                <td><strong>Get 15% off on our periperi pizza. Limited time offer!</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Free Salmon with Every Order</strong></td>
+                <td><strong>Enjoy an extra salmon served with salad for every order you make. Don't miss out!</strong></td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <marquee scrollamount="20" behavior="scroll" direction="left">Check out our new menu items! | Delivery available in your area. | Follow us on social media for more updates.</marquee>
+    </div>
+
+    <div>
+        <img src="specialoffer.png">
+        <img src="free.jpg">
+        <img src="fifteen.png">
+    </div>
+
     <footer>
         <p>&copy; 2024 FoodDelive. All rights reserved.</p>
     </footer>

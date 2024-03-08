@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            width: 97%;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        button a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        button:hover {
+            background-color: #1a721e;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="nav">
+        <div class="logo"><h2>FoodDelive</h2></div>
+        <div class="navlinks">
+            <ul>
+                <li><a class="navborder" href="home.html"><strong>Home</strong></a></li>
+                <li><a class="navborder" href="home.html"><strong>About</strong></a></li>
+                <li><a class="navborder" href="menu.html"><strong>Menu</strong></a></li>
+                <li><a class="navborder" href="index.html"><strong>Contact Us</strong></a></li>
+                <li><a class="navborder" href="advertisement.html"><strong>Advertisements</strong></a></li>
+                <li><a class="navborder" href="exit.html"></a></li>
+
+            </ul>
+        </div>
+    </div>
+
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name">
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" placeholder="Your Address">
+
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" name="phone" placeholder="Phone Number">
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Email">
+
+        <label for="orderType">Order Type</label>
+        <input type="text" id="orderType" name="orderType" placeholder="Delivery or Pick-Up?">
+    </form>
+
+    <button><a href="exit.html">PAY NOW</a></button>
+
+    <footer>
+        <p>&copy; 2024 FoodDelive. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>

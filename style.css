@@ -47,10 +47,3 @@ footer {
     bottom: 0;
     width: 97%;
 }
-
-@media screen and (max-width: 600px) {
-    .navbar a {
-        float: none;
-        width: 100%;
-    }
-}
